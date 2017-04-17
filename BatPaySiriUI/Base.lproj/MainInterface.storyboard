@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ObA-dk-sSI">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Intent View Controller-->
+        <scene sceneID="7MM-of-jgj">
+            <objects>
+                <viewController id="ObA-dk-sSI" customClass="IntentViewController" customModule="BatPaySiriUI" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qkL-Od-lgU"/>
+                        <viewControllerLayoutGuide type="bottom" id="n38-gi-rB5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zMn-AG-sqS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="batman_bg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="w7W-c3-Bnx">
+                                <rect key="frame" x="5" y="5" width="310" height="190"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <view alpha="0.40000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dSE-5X-wam" userLabel="OpacityView">
+                                <rect key="frame" x="5" y="5" width="310" height="190"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DwV-OC-8Xj">
+                                <rect key="frame" x="15" y="15" width="290" height="0.0"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="batmanlogo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="boB-84-brb">
+                                <rect key="frame" x="135" y="30" width="50" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="0MK-cf-IJC"/>
+                                    <constraint firstAttribute="width" constant="50" id="VpW-qB-ABH"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wfY-Vj-NGB">
+                                <rect key="frame" x="15" y="95" width="290" height="0.0"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SIY-jg-3Js">
+                                <rect key="frame" x="15" y="110" width="290" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="IEm-Tj-b8z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="w7W-c3-Bnx" firstAttribute="leading" secondItem="zMn-AG-sqS" secondAttribute="leading" constant="5" id="07e-hZ-dfX"/>
+                            <constraint firstItem="w7W-c3-Bnx" firstAttribute="top" secondItem="qkL-Od-lgU" secondAttribute="bottom" constant="5" id="3nS-tP-Ql5"/>
+                            <constraint firstAttribute="trailing" secondItem="w7W-c3-Bnx" secondAttribute="trailing" constant="5" id="4xv-C7-GXv"/>
+                            <constraint firstItem="dSE-5X-wam" firstAttribute="leading" secondItem="w7W-c3-Bnx" secondAttribute="leading" id="5sm-9K-7u7"/>
+                            <constraint firstItem="DwV-OC-8Xj" firstAttribute="leading" secondItem="zMn-AG-sqS" secondAttribute="leading" constant="15" id="B2p-PG-8me"/>
+                            <constraint firstItem="SIY-jg-3Js" firstAttribute="leading" secondItem="zMn-AG-sqS" secondAttribute="leading" constant="15" id="JlE-cf-ANt"/>
+                            <constraint firstItem="dSE-5X-wam" firstAttribute="trailing" secondItem="w7W-c3-Bnx" secondAttribute="trailing" id="Lhz-jb-RQE"/>
+                            <constraint firstItem="n38-gi-rB5" firstAttribute="top" relation="greaterThanOrEqual" secondItem="SIY-jg-3Js" secondAttribute="bottom" constant="15" id="M5o-hr-RoY"/>
+                            <constraint firstItem="boB-84-brb" firstAttribute="centerX" secondItem="zMn-AG-sqS" secondAttribute="centerX" id="SlC-kw-6Yy"/>
+                            <constraint firstAttribute="trailing" secondItem="SIY-jg-3Js" secondAttribute="trailing" constant="15" id="T5v-zY-Z10"/>
+                            <constraint firstAttribute="trailing" secondItem="wfY-Vj-NGB" secondAttribute="trailing" constant="15" id="TPT-aN-OaW"/>
+                            <constraint firstItem="SIY-jg-3Js" firstAttribute="top" secondItem="wfY-Vj-NGB" secondAttribute="bottom" constant="15" id="VfC-cQ-06U"/>
+                            <constraint firstItem="wfY-Vj-NGB" firstAttribute="leading" secondItem="zMn-AG-sqS" secondAttribute="leading" constant="15" id="Vyt-ML-Peb"/>
+                            <constraint firstAttribute="trailing" secondItem="DwV-OC-8Xj" secondAttribute="trailing" constant="15" id="Ww9-bI-0ew"/>
+                            <constraint firstItem="boB-84-brb" firstAttribute="top" secondItem="DwV-OC-8Xj" secondAttribute="bottom" constant="15" id="fsj-Rp-12q"/>
+                            <constraint firstItem="DwV-OC-8Xj" firstAttribute="top" secondItem="qkL-Od-lgU" secondAttribute="bottom" constant="15" id="j6c-zh-cSl"/>
+                            <constraint firstItem="wfY-Vj-NGB" firstAttribute="top" secondItem="boB-84-brb" secondAttribute="bottom" constant="15" id="oMt-uX-8a3"/>
+                            <constraint firstItem="dSE-5X-wam" firstAttribute="top" secondItem="w7W-c3-Bnx" secondAttribute="top" id="oNx-Gd-5P8"/>
+                            <constraint firstItem="dSE-5X-wam" firstAttribute="bottom" secondItem="w7W-c3-Bnx" secondAttribute="bottom" id="uza-KM-AOo"/>
+                            <constraint firstItem="n38-gi-rB5" firstAttribute="top" secondItem="w7W-c3-Bnx" secondAttribute="bottom" constant="5" id="z7O-bA-8tk"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="200"/>
+                    <connections>
+                        <outlet property="footerLabel" destination="SIY-jg-3Js" id="N6K-he-dVS"/>
+                        <outlet property="recipientImageView" destination="boB-84-brb" id="GYf-s0-Y3V"/>
+                        <outlet property="recipientLabel" destination="wfY-Vj-NGB" id="ieg-zX-Rpc"/>
+                        <outlet property="topLabel" destination="DwV-OC-8Xj" id="j28-RA-s4Y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X47-rx-isc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-83.200000000000003" y="62.968515742128943"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="batman_bg.jpg" width="2048" height="1152"/>
+        <image name="batmanlogo.jpg" width="500" height="202"/>
+    </resources>
+</document>
